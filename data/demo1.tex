@@ -1,0 +1,97 @@
+\documentclass[twocolumn, a4paper]{article} % 核心：双栏模式
+
+% --- 导入必要的包 ---
+\usepackage{graphicx}  % 用于插入图片
+\usepackage{booktabs}  % 用于美化表格
+\usepackage{amsmath}   % 用于数学公式
+\usepackage[margin=2cm]{geometry} % 设置页边距
+
+% --- 元数据区域 (测试 Header 提取) ---
+\title{Evaluation of PDF Parsers: A Minimal Test Case}
+\author{San Zhang$^{1}$, Si Li$^{2}$ \\ 
+        \small $^{1}$Department of Computer Science, Test University \\
+        \small $^{2}$Artificial Intelligence Lab, Demo Institute}
+\date{February 2026}
+
+\begin{document}
+
+\maketitle
+
+% --- 摘要 (测试 Abstract 提取) ---
+\begin{abstract}
+This document is a minimal example designed to test the capabilities of PDF parsing tools like GROBID and MinerU. It contains mixed layouts including figures, tables, and lists within a double-column format.
+\end{abstract}
+
+% --- 正文区 ---
+
+\section{Introduction}
+This section tests the parser's ability to handle standard text blocks. The document layout is set to \textbf{double-column}, which is common in academic conferences (e.g., CVPR, ACL). 
+Parsers must correctly identify the reading order (left column first, then right column).
+
+\section{Formatting Tests}
+
+\subsection{Vertical Lists}
+Here is a vertical list to test structure recognition:
+\begin{itemize}
+    \item \textbf{Item 1:} First component of the list.
+    \item \textbf{Item 2:} Second component with value $x$.
+    \item \textbf{Item 3:} Final component of the test.
+\end{itemize}
+
+\subsection{Mathematical Formulas}
+Parsers should identify the following display equation independently from the text:
+\begin{equation}
+    E = mc^2 + \sum_{i=0}^{n} \alpha_i x_i
+    \label{eq:test}
+\end{equation}
+Where $E$ represents energy and $m$ represents mass.
+
+% --- 图片测试 (使用内置示例图，无需上传) ---
+\begin{figure}[h]
+    \centering
+    % example-image 是 LaTeX 内置的占位图
+    \includegraphics[width=0.5\linewidth]{example-image-a}\includegraphics[width=0.5\linewidth]{example-image-b}
+    \caption{A test figure. Parsers should extract this caption and associate it with the image above.}
+    \label{fig:test}
+\end{figure}
+
+\section{Table Analysis}
+This section forces the parser to handle structured data grids. 
+
+\begin{table}[h]
+    \centering
+    \caption{Comparison of different models}
+    \begin{tabular}{lcc}
+        \toprule
+        \textbf{Model} & \textbf{Accuracy} & \textbf{Speed (ms)} \\
+        \midrule
+        Base Model    & 85.4\%           & 12 \\
+        Large Model   & 92.1\%           & 45 \\
+        \textbf{Our Method} & \textbf{94.5\%} & \textbf{15} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:results}
+\end{table}
+
+\section{Conclusion}
+This concludes the minimal test. The parser should recognize this as the final section before references.
+
+% --- 图片测试 ---
+\begin{figure}[h]
+    \centering
+    % 注意：花括号里填的是你上传后的文件名，不要填 URL！
+    \includegraphics[width=1.0\linewidth]{test_image.png} 
+    \caption{Comparison of RAG architectures (Extracted from image).}
+    \label{fig:rag_arch}
+\end{figure}
+
+% --- 参考文献 (测试 Citation 提取) ---
+\begin{thebibliography}{9}
+    \bibitem{vaswani2017}
+    A. Vaswani et al., "Attention is all you need," in \textit{NIPS}, 2017.
+    
+    \bibitem{resnet2016}
+    K. He, X. Zhang, S. Ren, and J. Sun, "Deep residual learning for image recognition," in \textit{CVPR}, 2016.
+\end{thebibliography}
+
+\end{document}

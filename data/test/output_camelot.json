@@ -1,0 +1,573 @@
+{
+  "file_name": "test-1.pdf",
+  "metadata": {
+    "format": "PDF 1.5",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "TeX",
+    "producer": "pdfTeX-1.40.27",
+    "creationDate": "D:20260202152653Z",
+    "modDate": "D:20260202152653Z",
+    "trapped": "",
+    "encryption": null
+  },
+  "tool": "Camelot + PyMuPDF",
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "elements": [
+        {
+          "type": "text",
+          "bbox": [
+            88.07499694824219,
+            103.05476379394531,
+            507.2762145996094,
+            150.32516479492188
+          ],
+          "content": "Test PaperDOC001 : Ameliorateddedicatedinfrastructure"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            263.3030090332031,
+            168.37100219726562,
+            331.99261474609375,
+            182.71719360351562
+          ],
+          "content": "Lori Potter"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            264.86102294921875,
+            195.69900512695312,
+            330.4517822265625,
+            210.04519653320312
+          ],
+          "content": "2015-04-21"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            70.86602783203125,
+            235.92166137695312,
+            144.9266815185547,
+            253.13705444335938
+          ],
+          "content": "Abstract"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            70.86602783203125,
+            268.6866760253906,
+            366.450439453125,
+            323.9798278808594
+          ],
+          "content": "This is a generated test document (ID:DOC001)toverifyPDFparsingcapabilities.LayoutMode :twocolumn .Featuresincluded:V erticalText, Tables, Lists, Formulas, andImages."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            70.86602783203125,
+            355.0325927734375,
+            292.7381591796875,
+            394.1659851074219
+          ],
+          "content": "1WhiteboardVirtualE-Tailers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            70.86602783203125,
+            409.7156066894531,
+            292.69482421875,
+            522.7918701171875
+          ],
+          "content": "Business method special charge. Suffer oldmaybe phone book minute. Myself beat ac-tually safe require think modern. Notice ei-ther culture lot. Follow against that surface.Population ever some. Respond educationindividual crime bring bill. Morning thankbegin exactly total. Push memory truth lay.Live give likely free."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            70.86602783203125,
+            550.8150024414062,
+            179.25157165527344,
+            565.1612548828125
+          ],
+          "content": "Structured List"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            82.57302856445312,
+            576.9989013671875,
+            155.70298767089844,
+            589.1748657226562
+          ],
+          "content": "• Item 1: lot"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            82.57302856445312,
+            607.23388671875,
+            156.40834045410156,
+            619.4098510742188
+          ],
+          "content": "• Item 2: his"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            107.4530258178711,
+            643.0086669921875,
+            292.6749267578125,
+            669.4098510742188
+          ],
+          "content": "– Nested item for structural depthtest."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            82.57302856445312,
+            692.7879028320312,
+            178.4656982421875,
+            704.9638671875
+          ],
+          "content": "• Item 3: mother"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            126.34902954101562,
+            747.6896362304688,
+            205.27090454101562,
+            764.5808715820312
+          ],
+          "content": "f(x) = α · ω2 +"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            207.9230499267578,
+            740.69287109375,
+            225.1863555908203,
+            761.820068359375
+          ],
+          "content": "∞X"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            209.70504760742188,
+            752.6256713867188,
+            292.6669921875,
+            777.5472412109375
+          ],
+          "content": "i=0βi(1)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            320.33905029296875,
+            246.34266662597656,
+            502.8233642578125,
+            258.2978820800781
+          ],
+          "content": "Table 1: Data analysis for section 1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            355.54998779296875,
+            264.0576477050781,
+            471.50347900390625,
+            276.0128479003906
+          ],
+          "content": "ItemCountRatio"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            355.54998779296875,
+            284.4936828613281,
+            471.5155334472656,
+            325.3398742675781
+          ],
+          "content": "Row 1530.33Row 2770.57Row 3570.73"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            302.6189880371094,
+            462.961669921875,
+            524.435791015625,
+            489.3628845214844
+          ],
+          "content": "Figure 1: That source watch food three halfdown."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            302.6189880371094,
+            513.4096069335938,
+            524.4566040039062,
+            552.5430908203125
+          ],
+          "content": "2DeployImpactfulFunctionalities"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            302.6189880371094,
+            565.7826538085938,
+            524.4476928710938,
+            649.9668579101562
+          ],
+          "content": "Simply these sense nothing issue above.Change who piece term. Leader focus writereveal. Prove only issue send. Feeling prop-erty alone forward first institution kid. Cityget more must. Mouth dream star boy needshould deal. Beyond expect structure life."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            302.6189880371094,
+            670.9849853515625,
+            411.00445556640625,
+            685.3312377929688
+          ],
+          "content": "Structured List"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            314.32598876953125,
+            694.85888671875,
+            394.66497802734375,
+            707.0348510742188
+          ],
+          "content": "• Item 1: case"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            314.32598876953125,
+            719.4129028320312,
+            398.5743408203125,
+            731.5888671875
+          ],
+          "content": "• Item 2: state"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            339.20599365234375,
+            747.234619140625,
+            524.4278564453125,
+            773.6358642578125
+          ],
+          "content": "– Nested item for structural depthtest."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            294.71099853515625,
+            791.568603515625,
+            300.5690612792969,
+            803.5238037109375
+          ],
+          "content": "1"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "elements": [
+        {
+          "type": "text",
+          "bbox": [
+            82.572998046875,
+            73.25785827636719,
+            188.5917205810547,
+            85.43385314941406
+          ],
+          "content": "• Item 3: represent"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            126.3489990234375,
+            114.09370422363281,
+            205.2718505859375,
+            130.98487854003906
+          ],
+          "content": "f(x) = α · ω2 +"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            207.92298889160156,
+            107.0969009399414,
+            225.18629455566406,
+            128.22406005859375
+          ],
+          "content": "∞X"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            209.70498657226562,
+            119.02973937988281,
+            292.66693115234375,
+            143.9512939453125
+          ],
+          "content": "i=0βi(2)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            88.58599853515625,
+            171.63575744628906,
+            271.0701904296875,
+            183.59095764160156
+          ],
+          "content": "Table 2: Data analysis for section 2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            123.7969970703125,
+            189.3506622314453,
+            239.75051879882812,
+            201.3058624267578
+          ],
+          "content": "ItemCountRatio"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            123.7969970703125,
+            209.78663635253906,
+            239.76246643066406,
+            250.63380432128906
+          ],
+          "content": "Row 1330.10Row 2240.74Row 3540.58"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            70.86599731445312,
+            385.6086730957031,
+            292.69476318359375,
+            412.0098876953125
+          ],
+          "content": "Figure 2:Area response brother controlmention wrong."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            70.86599731445312,
+            437.8906555175781,
+            292.72088623046875,
+            477.0240478515625
+          ],
+          "content": "3SynergizeProactiveInterfaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            70.86599731445312,
+            490.20367431640625,
+            292.69482421875,
+            588.8339233398438
+          ],
+          "content": "The American be develop half firm animal.Respond perform condition. Toward todayspecific social phone world without chair.His continue issue owner think. Meet yetincluding fire sea. Claim movie discussionok new certainly.Thousand blood thankcar tax year notice travel."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            127.22299194335938,
+            606.9557495117188,
+            204.39785766601562,
+            623.847900390625
+          ],
+          "content": "f(x) = α · z2 +"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            207.0489959716797,
+            599.9599609375,
+            224.3123016357422,
+            621.0861206054688
+          ],
+          "content": "∞X"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            208.83099365234375,
+            611.8927001953125,
+            292.6669006347656,
+            636.8133544921875
+          ],
+          "content": "i=0βi(3)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            75.15899658203125,
+            759.3556518554688,
+            283.2033996582031,
+            771.3108520507812
+          ],
+          "content": "Figure 3: Usually ready growth imagine."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            302.6190185546875,
+            69.36764526367188,
+            524.4393920898438,
+            108.50003814697266
+          ],
+          "content": "4ImplementOne-To-One Deliverables"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            302.6190185546875,
+            121.68061828613281,
+            524.44775390625,
+            205.86476135253906
+          ],
+          "content": "Fear yes sister partner evidence. Stand oc-cur fine a hundred how. Free when fund.Term until serious difficult.Little moregrow card join. Matter participant respon-sibility college first fly parent. Maintain liveeither thing second tell."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            302.6190185546875,
+            226.70291137695312,
+            411.0044860839844,
+            241.04910278320312
+          ],
+          "content": "Structured List"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            314.3260192871094,
+            250.5177459716797,
+            407.2897033691406,
+            262.6937561035156
+          ],
+          "content": "• Item 1: money"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            314.3260192871094,
+            274.92578125,
+            400.1285400390625,
+            287.1017761230469
+          ],
+          "content": "• Item 2: value"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            339.2060241699219,
+            302.5445861816406,
+            524.4278564453125,
+            328.9447937011719
+          ],
+          "content": "– Nested item for structural depthtest."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            314.3260192871094,
+            344.16680908203125,
+            395.25079345703125,
+            356.3428039550781
+          ],
+          "content": "• Item 3: field"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            358.635009765625,
+            387.41558837890625,
+            436.4908752441406,
+            404.3067932128906
+          ],
+          "content": "f(x) = α · x2 +"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            439.14300537109375,
+            380.41876220703125,
+            456.40631103515625,
+            401.54595947265625
+          ],
+          "content": "∞X"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            440.9250183105469,
+            392.3515930175781,
+            524.419921875,
+            417.2731628417969
+          ],
+          "content": "i=0βi(4)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            320.3390197753906,
+            447.068603515625,
+            502.82330322265625,
+            459.0238037109375
+          ],
+          "content": "Table 3: Data analysis for section 4"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            355.54998779296875,
+            464.7836608886719,
+            471.50347900390625,
+            476.7388610839844
+          ],
+          "content": "ItemCountRatio"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            355.54998779296875,
+            485.21966552734375,
+            471.5155334472656,
+            526.06689453125
+          ],
+          "content": "Row 1880.92Row 2260.49Row 3370.71"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            294.71099853515625,
+            791.568603515625,
+            300.5690612792969,
+            803.5238037109375
+          ],
+          "content": "2"
+        }
+      ]
+    }
+  ]
+}
