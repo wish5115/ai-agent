@@ -1,0 +1,9 @@
+Flask
+Flask-CORS
+pymupdf
+pdfplumber
+camelot-py[cv]
+opendataloader-pdf
+langchain-community
+python-multipart
+

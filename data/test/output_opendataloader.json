@@ -1,0 +1,750 @@
+{
+  "file name" : "test-1.pdf",
+  "number of pages" : 2,
+  "author" : null,
+  "title" : null,
+  "creation date" : "D:20260202152653Z",
+  "modification date" : "D:20260202152653Z",
+  "kids" : [ {
+    "type" : "heading",
+    "id" : 8,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 88.075, 691.098, 507.198, 738.181 ],
+    "heading level" : 1,
+    "font" : "CMMI12",
+    "font size" : 20.663,
+    "text color" : "[0.0]",
+    "content" : "Test Paper DOC001 : Ameliorateddedicatedinfrastructure"
+  }, {
+    "type" : "paragraph",
+    "id" : 9,
+    "page number" : 1,
+    "bounding box" : [ 263.303, 631.378, 331.973, 673.067 ],
+    "font" : "CMR12",
+    "font size" : 14.346,
+    "text color" : "[0.0]",
+    "content" : "Lori Potter 2015-04-21"
+  }, {
+    "type" : "heading",
+    "id" : 10,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 70.866, 588.193, 144.887, 605.426 ],
+    "heading level" : 2,
+    "font" : "CMBX12",
+    "font size" : 17.215,
+    "text color" : "[0.0]",
+    "content" : "Abstract"
+  }, {
+    "type" : "paragraph",
+    "id" : 22,
+    "page number" : 1,
+    "bounding box" : [ 320.339, 565.488, 502.787, 595.17 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "Table 1: Data analysis for section 1 Item Count Ratio"
+  }, {
+    "type" : "image",
+    "id" : 23,
+    "page number" : 1,
+    "bounding box" : [ 349.573, 581.947, 477.456, 582.883 ]
+  }, {
+    "type" : "paragraph",
+    "id" : 11,
+    "page number" : 1,
+    "bounding box" : [ 70.866, 545.628, 366.441, 572.826 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "This is a generated test document (ID: DOC001)toverifyPDFparsingcapabilities.LayoutMode :"
+  }, {
+    "type" : "image",
+    "id" : 24,
+    "page number" : 1,
+    "bounding box" : [ 349.573, 561.512, 477.456, 562.097 ]
+  }, {
+    "type" : "list",
+    "id" : 25,
+    "level" : "3",
+    "page number" : 1,
+    "bounding box" : [ 355.55, 516.161, 471.48, 557.019 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 355.55, 545.052, 471.48, 557.019 ],
+      "font" : "CMR12",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "Row 1 53 0.33",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 355.55, 530.606, 471.48, 542.573 ],
+      "font" : "CMR12",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "Row 2 77 0.57",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 355.55, 516.161, 471.48, 528.128 ],
+      "font" : "CMR12",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "Row 3 57 0.73",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 75.349, 531.967, 292.66, 543.934 ],
+    "font" : "CMMI12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "twocolumn .Featuresincluded :"
+  }, {
+    "type" : "paragraph",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 70.866, 517.533, 336.421, 529.488 ],
+    "font" : "CMMI12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "V erticalText,Tables,Lists,Formulas,andImages."
+  }, {
+    "type" : "image",
+    "id" : 26,
+    "page number" : 1,
+    "bounding box" : [ 349.573, 511.833, 477.456, 512.769 ]
+  }, {
+    "type" : "heading",
+    "id" : 14,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 70.866, 447.164, 292.654, 486.315 ],
+    "heading level" : 2,
+    "font" : "CMBX12",
+    "font size" : 17.215,
+    "text color" : "[0.0]",
+    "content" : "1 Whiteboard Virtual E-Tailers"
+  }, {
+    "type" : "paragraph",
+    "id" : 15,
+    "page number" : 1,
+    "bounding box" : [ 70.866, 318.709, 292.661, 431.797 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "Business method special charge. Suffer old maybe phone book minute. Myself beat actually safe require think modern. Notice either culture lot. Follow against that surface. Population ever some. Respond education individual crime bring bill. Morning thank begin exactly total. Push memory truth lay. Live give likely free."
+  }, {
+    "type" : "heading",
+    "id" : 16,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 70.866, 276.262, 179.209, 290.623 ],
+    "heading level" : 3,
+    "font" : "CMBX12",
+    "font size" : 14.346,
+    "text color" : "[0.0]",
+    "content" : "Structured List"
+  }, {
+    "type" : "list",
+    "id" : 17,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 82.573, 135.712, 178.432, 266.589 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "next list id" : 36,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 82.573, 251.501, 155.669, 266.589 ],
+      "font" : "SFRM1200",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "• Item 1: lot",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 82.573, 221.266, 156.384, 236.354 ],
+      "font" : "SFRM1200",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "• Item 2: his",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 6,
+        "level" : "2",
+        "page number" : 1,
+        "bounding box" : [ 107.453, 186.537, 292.659, 198.504 ],
+        "font" : "CMR12",
+        "font size" : 11.955,
+        "text color" : "[0.0]",
+        "content" : "– Nested item for structural depth"
+      }, {
+        "type" : "paragraph",
+        "id" : 7,
+        "page number" : 1,
+        "bounding box" : [ 120.031, 172.091, 142.208, 184.058 ],
+        "font" : "CMR12",
+        "font size" : 11.955,
+        "text color" : "[0.0]",
+        "content" : "test."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 82.573, 135.712, 178.432, 150.8 ],
+      "font" : "SFRM1200",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "• Item 3: mother",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 19,
+    "page number" : 1,
+    "bounding box" : [ 212.323, 87.254, 220.791, 101.074 ],
+    "font" : "CMSY8",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "∞"
+  }, {
+    "type" : "paragraph",
+    "id" : 18,
+    "page number" : 1,
+    "bounding box" : [ 126.349, 68.444, 205.266, 90.835 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "f(x) = α · ω2 +"
+  }, {
+    "type" : "paragraph",
+    "id" : 21,
+    "page number" : 1,
+    "bounding box" : [ 227.184, 76.135, 292.657, 88.887 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "βi (1)"
+  }, {
+    "type" : "paragraph",
+    "id" : 20,
+    "page number" : 1,
+    "bounding box" : [ 209.705, 64.091, 223.409, 72.062 ],
+    "font" : "CMR8",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "i=0"
+  }, {
+    "type" : "image",
+    "id" : 27,
+    "page number" : 1,
+    "bounding box" : [ 324.798, 393.993, 502.23, 482.709 ],
+    "source" : "test-1_images/imageFile1.png"
+  }, {
+    "type" : "caption",
+    "id" : 28,
+    "page number" : 1,
+    "bounding box" : [ 302.619, 352.138, 524.409, 378.551 ],
+    "linked content id" : 27,
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "Figure 1: That source watch food three half down."
+  }, {
+    "type" : "heading",
+    "id" : 29,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 302.619, 288.787, 524.405, 327.938 ],
+    "heading level" : 2,
+    "font" : "CMBX12",
+    "font size" : 17.215,
+    "text color" : "[0.0]",
+    "content" : "2 Deploy Impactful Functionalities"
+  }, {
+    "type" : "paragraph",
+    "id" : 30,
+    "page number" : 1,
+    "bounding box" : [ 302.619, 191.534, 524.409, 275.73 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "Simply these sense nothing issue above. Change who piece term. Leader focus write reveal. Prove only issue send. Feeling property alone forward first institution kid. City get more must. Mouth dream star boy need should deal. Beyond expect structure life."
+  }, {
+    "type" : "heading",
+    "id" : 31,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 302.619, 156.092, 410.962, 170.453 ],
+    "heading level" : 3,
+    "font" : "CMBX12",
+    "font size" : 14.346,
+    "text color" : "[0.0]",
+    "content" : "Structured List"
+  }, {
+    "type" : "list",
+    "id" : 32,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 314.326, 109.087, 398.543, 148.729 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 314.326, 133.641, 394.641, 148.729 ],
+      "font" : "SFRM1200",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "• Item 1: case",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 314.326, 109.087, 398.543, 124.175 ],
+      "font" : "SFRM1200",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "• Item 2: state",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 33,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 339.206, 82.311, 524.412, 94.278 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "– Nested item for structural depth"
+  }, {
+    "type" : "paragraph",
+    "id" : 34,
+    "page number" : 1,
+    "bounding box" : [ 351.784, 67.865, 373.961, 79.832 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "test."
+  }, {
+    "type" : "footer",
+    "id" : 35,
+    "page number" : 1,
+    "bounding box" : [ 294.711, 37.977, 300.564, 49.944 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 3,
+      "page number" : 1,
+      "bounding box" : [ 294.711, 37.977, 300.564, 49.944 ],
+      "heading level" : 4,
+      "font" : "CMR12",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "1"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 36,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 82.573, 755.242, 188.568, 770.33 ],
+    "numbering style" : "unordered",
+    "number of list items" : 1,
+    "previous list id" : 17,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 82.573, 755.242, 188.568, 770.33 ],
+      "font" : "SFRM1200",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "• Item 3: represent",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 38,
+    "page number" : 2,
+    "bounding box" : [ 212.323, 720.85, 220.791, 734.67 ],
+    "font" : "CMSY8",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "∞"
+  }, {
+    "type" : "paragraph",
+    "id" : 37,
+    "page number" : 2,
+    "bounding box" : [ 126.349, 702.04, 205.267, 724.431 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "f(x) = α · ω2 +"
+  }, {
+    "type" : "paragraph",
+    "id" : 40,
+    "page number" : 2,
+    "bounding box" : [ 227.184, 709.73, 292.657, 722.483 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "βi (2)"
+  }, {
+    "type" : "paragraph",
+    "id" : 39,
+    "page number" : 2,
+    "bounding box" : [ 209.705, 697.687, 223.409, 705.658 ],
+    "font" : "CMR8",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "i=0"
+  }, {
+    "type" : "paragraph",
+    "id" : 41,
+    "page number" : 2,
+    "bounding box" : [ 88.586, 640.195, 271.034, 669.877 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "Table 2: Data analysis for section 2 Item Count Ratio"
+  }, {
+    "type" : "image",
+    "id" : 42,
+    "page number" : 2,
+    "bounding box" : [ 117.82, 656.654, 245.703, 657.59 ]
+  }, {
+    "type" : "image",
+    "id" : 43,
+    "page number" : 2,
+    "bounding box" : [ 117.82, 636.219, 245.703, 636.804 ]
+  }, {
+    "type" : "list",
+    "id" : 44,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 123.797, 590.867, 239.727, 631.726 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 123.797, 619.759, 239.727, 631.726 ],
+      "font" : "CMR12",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "Row 1 33 0.10",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 123.797, 605.313, 239.727, 617.28 ],
+      "font" : "CMR12",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "Row 2 24 0.74",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 123.797, 590.867, 239.727, 602.834 ],
+      "font" : "CMR12",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "Row 3 54 0.58",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 45,
+    "page number" : 2,
+    "bounding box" : [ 117.82, 586.539, 245.703, 587.475 ]
+  }, {
+    "type" : "image",
+    "id" : 46,
+    "page number" : 2,
+    "bounding box" : [ 93.045, 471.346, 270.477, 560.062 ],
+    "source" : "test-1_images/imageFile2.png"
+  }, {
+    "type" : "heading",
+    "id" : 56,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 302.619, 732.83, 524.408, 771.98 ],
+    "heading level" : 2,
+    "font" : "CMBX12",
+    "font size" : 17.215,
+    "text color" : "[0.0]",
+    "content" : "4 Implement One-ToOne Deliverables"
+  }, {
+    "type" : "paragraph",
+    "id" : 57,
+    "page number" : 2,
+    "bounding box" : [ 302.619, 635.636, 524.414, 719.832 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "Fear yes sister partner evidence. Stand occur fine a hundred how. Free when fund. Term until serious difficult. Little more grow card join. Matter participant responsibility college first fly parent. Maintain live either thing second tell."
+  }, {
+    "type" : "heading",
+    "id" : 58,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 302.619, 600.374, 410.962, 614.735 ],
+    "heading level" : 3,
+    "font" : "CMBX12",
+    "font size" : 14.346,
+    "text color" : "[0.0]",
+    "content" : "Structured List"
+  }, {
+    "type" : "list",
+    "id" : 59,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 314.326, 484.333, 407.259, 593.07 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 314.326, 577.982, 407.259, 593.07 ],
+      "font" : "SFRM1200",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "• Item 1: money",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 314.326, 553.574, 400.097, 568.662 ],
+      "font" : "SFRM1200",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "• Item 2: value",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 5,
+        "page number" : 2,
+        "bounding box" : [ 351.784, 512.556, 524.412, 538.968 ],
+        "font" : "CMR12",
+        "font size" : 11.955,
+        "text color" : "[0.0]",
+        "content" : "Nested item for structural depth test."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 314.326, 484.333, 395.227, 499.421 ],
+      "font" : "SFRM1200",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "• Item 3: field",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 47,
+    "page number" : 2,
+    "bounding box" : [ 70.866, 429.491, 292.661, 455.904 ],
+    "linked content id" : 46,
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "Figure 2: Area response brother control mention wrong."
+  }, {
+    "type" : "paragraph",
+    "id" : 61,
+    "page number" : 2,
+    "bounding box" : [ 443.543, 447.528, 452.011, 461.348 ],
+    "font" : "CMSY8",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "∞"
+  }, {
+    "type" : "paragraph",
+    "id" : 60,
+    "page number" : 2,
+    "bounding box" : [ 358.635, 428.718, 436.486, 451.109 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "f(x) = α · x2 +"
+  }, {
+    "type" : "paragraph",
+    "id" : 63,
+    "page number" : 2,
+    "bounding box" : [ 458.404, 436.408, 524.41, 449.161 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "βi (4)"
+  }, {
+    "type" : "paragraph",
+    "id" : 62,
+    "page number" : 2,
+    "bounding box" : [ 440.925, 424.365, 454.629, 432.336 ],
+    "font" : "CMR8",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "i=0"
+  }, {
+    "type" : "heading",
+    "id" : 48,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 70.866, 364.306, 292.65, 403.457 ],
+    "heading level" : 2,
+    "font" : "CMBX12",
+    "font size" : 17.215,
+    "text color" : "[0.0]",
+    "content" : "3 Synergize Proactive Interfaces"
+  }, {
+    "type" : "paragraph",
+    "id" : 49,
+    "page number" : 2,
+    "bounding box" : [ 70.866, 252.667, 292.661, 351.309 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "The American be develop half firm animal. Respond perform condition. Toward today specific social phone world without chair. His continue issue owner think. Meet yet including fire sea. Claim movie discussion ok new certainly. Thousand blood thank car tax year notice travel."
+  }, {
+    "type" : "paragraph",
+    "id" : 51,
+    "page number" : 2,
+    "bounding box" : [ 211.449, 227.987, 219.917, 241.807 ],
+    "font" : "CMSY8",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "∞"
+  }, {
+    "type" : "paragraph",
+    "id" : 50,
+    "page number" : 2,
+    "bounding box" : [ 127.223, 209.177, 204.393, 231.569 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "f(x) = α · z2 +"
+  }, {
+    "type" : "paragraph",
+    "id" : 53,
+    "page number" : 2,
+    "bounding box" : [ 226.31, 216.868, 292.657, 229.62 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "βi (3)"
+  }, {
+    "type" : "paragraph",
+    "id" : 52,
+    "page number" : 2,
+    "bounding box" : [ 208.831, 204.825, 222.535, 212.796 ],
+    "font" : "CMR8",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "i=0"
+  }, {
+    "type" : "image",
+    "id" : 54,
+    "page number" : 2,
+    "bounding box" : [ 93.045, 97.599, 270.477, 186.315 ],
+    "source" : "test-1_images/imageFile3.png"
+  }, {
+    "type" : "caption",
+    "id" : 55,
+    "page number" : 2,
+    "bounding box" : [ 75.159, 70.19, 283.163, 82.157 ],
+    "linked content id" : 54,
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "Figure 3: Usually ready growth imagine."
+  }, {
+    "type" : "paragraph",
+    "id" : 64,
+    "page number" : 2,
+    "bounding box" : [ 320.339, 364.762, 502.787, 394.444 ],
+    "font" : "CMR12",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "Table 3: Data analysis for section 4 Item Count Ratio"
+  }, {
+    "type" : "image",
+    "id" : 65,
+    "page number" : 2,
+    "bounding box" : [ 349.573, 381.221, 477.456, 382.157 ]
+  }, {
+    "type" : "image",
+    "id" : 66,
+    "page number" : 2,
+    "bounding box" : [ 349.573, 360.785, 477.456, 361.37 ]
+  }, {
+    "type" : "list",
+    "id" : 67,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 355.55, 315.434, 471.48, 356.293 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 355.55, 344.326, 471.48, 356.293 ],
+      "font" : "CMR12",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "Row 1 88 0.92",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 355.55, 329.88, 471.48, 341.847 ],
+      "font" : "CMR12",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "Row 2 26 0.49",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 355.55, 315.434, 471.48, 327.401 ],
+      "font" : "CMR12",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "Row 3 37 0.71",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 68,
+    "page number" : 2,
+    "bounding box" : [ 349.573, 311.106, 477.456, 312.042 ]
+  }, {
+    "type" : "footer",
+    "id" : 69,
+    "page number" : 2,
+    "bounding box" : [ 294.711, 37.977, 300.564, 49.944 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 4,
+      "page number" : 2,
+      "bounding box" : [ 294.711, 37.977, 300.564, 49.944 ],
+      "heading level" : 4,
+      "font" : "CMR12",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "2"
+    } ]
+  } ]
+}
