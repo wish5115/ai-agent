@@ -6,4 +6,7 @@ camelot-py[cv]
 opendataloader-pdf
 langchain-community
 python-multipart
-
+pypdf
+transformers
+torch
+Pillow

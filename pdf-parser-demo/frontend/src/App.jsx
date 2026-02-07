@@ -1,12 +1,20 @@
 import { useState } from 'react'
 import axios from 'axios'
+// 1. 引入 react-pdf
 import { Document, Page, pdfjs } from 'react-pdf'
 import ReactMarkdown from 'react-markdown'
+
+// 2. 引入样式
+import 'react-pdf/dist/Page/AnnotationLayer.css';
+import 'react-pdf/dist/Page/TextLayer.css';
 import './App.css'
 
-// Set worker script for react-pdf
-// Using a CDN for reliability in this demo setup
-pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`
+// 3. 【核心修改】显式引入 worker 文件的 URL
+// 注意：不要手动写路径字符串，让 Vite 帮你处理路径
+import pdfWorker from 'pdfjs-dist/build/pdf.worker.min.js?url';
+
+pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker;
+
 
 function App() {
   const [file, setFile] = useState(null)
@@ -24,7 +32,9 @@ function App() {
     'camelot',
     'docling',
     'OpenDataLoader',
-    'PyPDF'
+    'PyPDF',
+    'LaTeXOCR',
+    'SimpleFormulaDetector'
   ]
 
   const handleFileChange = (e) => {
@@ -45,6 +55,8 @@ function App() {
     formData.append('engine', engine)
 
     try {
+      // 注意：这里直接写 http://localhost:5000/upload
+      //const response = await axios.post('http://localhost:5001/upload', formData)
       const response = await axios.post('/api/upload', formData)
       setResult(response.data)
       console.log(response.data)
@@ -70,18 +82,34 @@ function App() {
         <div className="highlight-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
              {pageData.elements.map((el, idx) => {
                 if (!el.bbox) return null;
+                const isText = el.type === 'text';
+                const isImage = el.type === 'image';
+                const isTable = el.type === 'table';
+                const isFormula = el.type === 'formula';
+                
                 const style = {
                     left: `${el.bbox.x * 100}%`,
                     top: `${el.bbox.y * 100}%`,
                     width: `${el.bbox.w * 100}%`,
                     height: `${el.bbox.h * 100}%`,
-                    backgroundColor: el.type === 'table' ? 'rgba(255, 0, 0, 0.2)' : 
-                                    el.type === 'image' ? 'rgba(0, 255, 0, 0.2)' : 
+                    backgroundColor: isTable ? 'rgba(255, 0, 0, 0.2)' : 
+                                    isImage ? 'rgba(0, 255, 0, 0.2)' : 
+                                    isFormula ? 'rgba(255, 165, 0, 0.3)' : // Orange for formula
                                     'rgba(0, 0, 255, 0.1)',
-                    border: '1px solid red',
+                    border: isTable ? '2px solid red' : 
+                            isImage ? '2px solid green' : 
+                            isFormula ? '2px solid orange' :
+                            '1px solid blue',
                     position: 'absolute',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    fontSize: '12px',
+                    color: 'red', // 红色字体
+                    fontWeight: 'bold',
+                    overflow: 'hidden'
                 }
-                return <div key={idx} style={style} title={el.type} />
+                return <div key={idx} style={style} title={`ID: ${el.id} (${el.type})`}>{el.id}</div>
              })}
         </div>
       )
@@ -89,10 +117,13 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1 className="header-title">PDF Parser Demo</h1>
       <header className="header">
+        <h2 className="header-title">PDF Parser Demo</h2>
         <div className="controls">
-          <select value={engine} onChange={(e) => setEngine(e.target.value)}>
+          <select value={engine} onChange={(e) => {
+            setEngine(e.target.value)
+            if (file) handleUpload()
+          }}>
             {engines.map(e => (
               <option key={e} value={e}>{e}</option>
             ))}
@@ -131,6 +162,24 @@ function App() {
                   </div>
                 </Document>
              </div>
+             <div className="legend">
+                <div className="legend-item">
+                    <span className="legend-color text"></span>
+                    <span>Text</span>
+                </div>
+                <div className="legend-item">
+                    <span className="legend-color image"></span>
+                    <span>Image</span>
+                </div>
+                <div className="legend-item">
+                    <span className="legend-color table"></span>
+                    <span>Table</span>
+                </div>
+                <div className="legend-item">
+                    <span className="legend-color formula"></span>
+                    <span>Formula</span>
+                </div>
+             </div>
           </div>
         )}
 
@@ -148,15 +197,23 @@ function App() {
             >
               Markdown
             </button>
+            <button 
+              className={activeTab === 'metadata' ? 'active' : ''} 
+              onClick={() => setActiveTab('metadata')}
+            >
+              Metadata
+            </button>
           </div>
           
           <div className="result-content">
             {activeTab === 'json' ? (
               <pre>{JSON.stringify(result, null, 2)}</pre>
-            ) : (
+            ) : activeTab === 'markdown' ? (
               <ReactMarkdown>
                   {result?.result?.pages?.map(p => p.elements.map(e => e.content).join('\n')).join('\n\n')}
               </ReactMarkdown>
+            ) : (
+              <pre>{JSON.stringify(result?.result?.metadata || {}, null, 2)}</pre>
             )}
           </div>
         </div>
