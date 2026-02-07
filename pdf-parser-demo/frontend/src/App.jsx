@@ -89,8 +89,8 @@ function App() {
 
   return (
     <div className="app-container">
+      <h1 className="header-title">PDF Parser Demo</h1>
       <header className="header">
-        <h1>PDF Parser Demo</h1>
         <div className="controls">
           <select value={engine} onChange={(e) => setEngine(e.target.value)}>
             {engines.map(e => (
