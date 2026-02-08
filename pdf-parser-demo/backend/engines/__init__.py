@@ -4,11 +4,11 @@ from .camelot import CamelotEngine
 from .pypdf import PyPDFEngine
 from .latexocr import LaTeXOCREngine, SimpleFormulaDetector
 
-# Fallback for others
-class OpenDataLoaderEngine(PyMuPDFEngine):
-    pass
+# 新增：真正的 Docling 导入
+from .docling import DoclingEngine 
 
-class DoclingEngine(PyMuPDFEngine):
+# OpenDataLoader 暂时还是假的，因为这个库配置非常复杂 (MinerU)
+class OpenDataLoaderEngine(PyMuPDFEngine):
     pass
 
 __all__ = [
@@ -19,6 +19,5 @@ __all__ = [
     'LaTeXOCREngine',
     'SimpleFormulaDetector',
     'OpenDataLoaderEngine',
-    'DoclingEngine'
+    'DoclingEngine' # 确保导出
 ]
-

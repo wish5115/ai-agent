@@ -174,3 +174,79 @@ pre {
     background-color: rgba(255, 165, 0, 0.3);
     border-color: orange;
 }
+
+/* 高亮闪烁动画 */
+@keyframes flash {
+  0% { background-color: rgba(255, 255, 0, 0.8); }
+  100% { background-color: transparent; }
+}
+
+.flash-highlight {
+  animation: flash 2s ease-out;
+  border-radius: 4px;
+}
+
+/* JSON 列表视图样式优化 */
+.json-viewer {
+  font-family: monospace;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.json-page-block {
+  margin-bottom: 10px;
+}
+
+.json-indent {
+  padding-left: 20px;
+}
+
+.json-indent-2 {
+  padding-left: 40px;
+}
+
+.json-element-item {
+  padding: 2px 0;
+  padding-left: 20px; /* 元素本身的缩进 */
+}
+
+.json-element-item pre {
+  margin: 0;
+  white-space: pre-wrap; /* 允许换行 */
+  word-break: break-all;
+}
+
+/* 覆盖一下 overlay 的样式，确保点击穿透逻辑正确 */
+.highlight-overlay {
+  pointer-events: none; /* 遮罩层本身不阻挡 */
+}
+
+.highlight-overlay > div {
+  pointer-events: auto; /* 但遮罩层里的框需要阻挡并响应点击 */
+}
+
+/* 图例颜色：代表边框/背景色 */
+
+/* 文本：蓝色 */
+.legend-color.text {
+  background-color: rgba(0, 0, 255, 0.2);
+  border: 1px solid blue;
+}
+
+/* 表格：红色 */
+.legend-color.table {
+  background-color: rgba(255, 0, 0, 0.2);
+  border: 1px solid red;
+}
+
+/* 图片：绿色 */
+.legend-color.image {
+  background-color: rgba(0, 255, 0, 0.2);
+  border: 1px solid green;
+}
+
+/* 公式：橙色 */
+.legend-color.formula {
+  background-color: rgba(255, 165, 0, 0.2);
+  border: 1px solid orange;
+}

@@ -44,6 +44,7 @@ class BasePDFEngine:
         self.element_counter = 0
         
     def parse(self, filepath):
+        self.element_counter = 0
         raise NotImplementedError
         
     def generate_id(self):

@@ -3,6 +3,7 @@ from langchain_community.document_loaders import PyPDFLoader
 
 class PyPDFEngine(BasePDFEngine):
     def parse(self, filepath):
+        self.element_counter = 0
         loader = PyPDFLoader(filepath)
         pages = loader.load()
         

@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
+    host: '0.0.0.0',
     proxy: {
       '/api': {
         target: 'http://localhost:5001', // 后端地址
@@ -12,7 +13,9 @@ export default defineConfig({
       },
     },
     allowedHosts: [
-      '8d34cf7.r6.cpolar.cn' // 将报错的域名添加到这里
+      '8d34cf7.r6.cpolar.cn',
+      '127.0.0.1',
+      'localhost',
     ],
   },
 })

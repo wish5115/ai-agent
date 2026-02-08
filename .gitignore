@@ -2,5 +2,7 @@ venv
 pdf-parser-demo/backend/venv
 demo.py
 pdf-parser-demo/backend/__pycache__
+pdf-parser-demo/backend/engines/__pycache__
 pdf-parser-demo/backend/uploads
 pdf-parser-demo/frontend/node_modules
+pdf-parser-demo/backend/engines_副本*
