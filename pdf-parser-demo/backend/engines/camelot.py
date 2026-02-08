@@ -37,12 +37,22 @@ class CamelotEngine(BasePDFEngine):
             # 3. edge_tol=500: (边缘容差) 默认 50。设大一点告诉它"表格可能在页面的任何位置"。
             # 注意：不指定 table_areas 的情况下，Camelot 会尝试猜测。
             
+            # 如果使用 lattice 模式，绝对不能加 row_tol
+            # 如果觉得线条识别不准，可以加 line_scale (默认15，越大越灵敏，如 40)
             tables = camelot.read_pdf(
                 filepath, 
                 pages='all', 
-                flavor='lattice',  # 👈 stream误判率高 lattice识别线条更准
-                row_tol=10
+                flavor='lattice', 
+                line_scale=40  # 替换 row_tol
             )
+            
+            # 如果你要用 stream 模式，才加 row_tol
+            # tables = camelot.read_pdf(
+            #     filepath, 
+            #     pages='all', 
+            #     flavor='stream', 
+            #     row_tol=10
+            # )
             
             print(f"Camelot found {len(tables)} tables.")
 

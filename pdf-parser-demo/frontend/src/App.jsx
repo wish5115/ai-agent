@@ -168,8 +168,24 @@ function App() {
 
   // 5. 新增：特殊的 JSON 渲染器
   // 为了能让 scrollIntoView 工作，我们需要把每个 element 渲染成独立的带 ID 的 DOM 节点
+  // 5. 修改：增强容错性的 JSON 渲染器
   const renderJsonView = () => {
     if (!result || !result.result) return <pre>No data</pre>;
+
+    // 【新增】检查后端是否返回了错误信息
+    if (result.result.error) {
+        return (
+            <div style={{ color: 'red', padding: '20px', border: '1px solid red', borderRadius: '4px', background: '#fff0f0' }}>
+                <h3>Parsing Error</h3>
+                <pre>{result.result.error}</pre>
+            </div>
+        );
+    }
+
+    // 【新增】检查 pages 是否存在，防止 .map 报错
+    if (!result.result.pages || !Array.isArray(result.result.pages)) {
+        return <pre>No pages data returned.</pre>;
+    }
 
     // 提取顶层属性（不包含 pages，避免重复）
     const { pages, ...topLevel } = result.result;
@@ -195,13 +211,12 @@ function App() {
                 <div>"elements": [</div>
                 
                 {/* 渲染 Elements */}
-                {page.elements.map((el, eIdx) => (
+                {page.elements && page.elements.map((el, eIdx) => (
                   <div 
                     key={el.id} 
-                    id={`json-item-${el.id}`} // 关键：这是锚点 ID
+                    id={`json-item-${el.id}`} 
                     className="json-element-item"
                   >
-                    {/* 使用 JSON.stringify 渲染单个元素对象 */}
                     <pre style={{margin: 0, display: 'inline-block'}}>
                       {JSON.stringify(el, null, 2)}
                     </pre>
